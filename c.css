@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(108, 112, 67);
+}
+
+.center {
+    text-align: center;
+    margin: 5px;
+}
+
+.btn {
+    background: rgb(114, 203, 197);
+    color: black;
+    width: 66px;
+    font-size: 20px;
+    padding: 21px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.row {
+    margin: 3px;
+}
+
+.row input {
+    background: rgb(114, 203, 197);
+    color: black;
+    font-size: 22px;
+    margin: 0;
+    padding: 12px 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
